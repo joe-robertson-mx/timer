@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget id="mendix.timer.Timer" pluginWidget="true" needsEntityContext="true" offlineCapable="true"
+        supportedPlatform="Web"
+        xmlns="http://www.mendix.com/widget/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.mendix.com/widget/1.0/ ../node_modules/mendix/custom_widget.xsd">
+    <name>Timer</name>
+    <description>My widget description</description>
+    <icon/>
+    <properties>
+        <propertyGroup caption="General">
+            <property key="timeAtt" type="attribute" required="true">
+                <caption>Time attribute</caption>
+                <description>The number of seconds on refresh</description>
+                <attributeTypes>
+                    <attributeType name="Integer"/>
+                </attributeTypes>
+            </property>
+                <property key="action" type="action" required="false">
+                    <caption>Action</caption>
+                    <description>Action to trigger when the time elapses</description>
+                </property>
+        </propertyGroup>
+    </properties>
+</widget>
