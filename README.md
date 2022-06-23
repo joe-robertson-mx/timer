@@ -1,17 +1,15 @@
 ## Timer
-[My widget description]
+A widget to display a countdown and then execute an action
 
 ## Features
-[feature highlights]
+- User can define countdown period via a Mendix attribute
+- USer can define the action to be executed at the end of the countdown
 
 ## Usage
-[step by step instructions]
+To use drag onto a Mendix page, specify the countdown period and define the action to be executed at the end.
 
 ## Demo project
 [link to sandbox]
-
-## Issues, suggestions and feature requests
-[link to GitHub issues]
 
 ## Development and contribution
 
